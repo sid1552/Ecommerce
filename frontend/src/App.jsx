@@ -1,15 +1,15 @@
 import './App.css';
-import Header from './assets/component/Header';
-import Footer from './assets/component/Footer';
+import 'bootswatch/dist/lux/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
 
-const App = () => {
+function App() {
   return (
     <>
-      <Header />
-      <h4>Hello worldss</h4>
-      <Footer />
+      <Container>
+        <h1>Hello world</h1>
+      </Container>
     </>
   );
-};
+}
 
 export default App;
